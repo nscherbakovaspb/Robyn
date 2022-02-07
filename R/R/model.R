@@ -512,7 +512,7 @@ robyn_mmm <- function(hyper_collect,
             # ,penalty.factor = c(1,1,1,1,1,1,1,1,1)
             # ,nlambda = 100
             # ,nfold = 10
-            # ,intercept = FALSE
+            ,intercept = FALSE
           ) # plot(cvmod) coef(cvmod)
           # head(predict(cvmod, newx=x_train, s="lambda.1se"))
 
