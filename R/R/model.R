@@ -1097,7 +1097,8 @@ model_refit <- function(x_train, y_train, lambda, lower.limits, upper.limits, in
     # https://stats.stackexchange.com/questions/138569/why-is-lambda-within-one-standard-error-from-the-minimum-is-a-recommended-valu
     lambda = lambda,
     lower.limits = lower.limits,
-    upper.limits = upper.limits
+    upper.limits = upper.limits,
+    intercept=FALSE
   ) # coef(mod)
 
   df.int <- 1
